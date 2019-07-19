@@ -1,0 +1,12 @@
+{
+  "extends": "../../../tsconfig",
+  "compilerOptions": {
+    "baseUrl": "src",
+    "outDir": "dist",
+    "paths": {
+      "*": ["*"]
+    }
+  },
+  "include": ["./src/**/*.ts", "./prisma/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}
